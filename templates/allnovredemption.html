@@ -1,0 +1,112 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<style>
+tr{
+    font-size:17px;
+}
+
+th.text-center {
+    border: 1px solid black;
+    font-size:18px;
+}
+tr.border_bottom td {
+    border-bottom:1pt solid black;
+    height:100px;
+}
+#rhcardparticulars{
+    text-align:left;
+    padding-left:30px;
+}
+
+.filterbank{
+    margin: 0px 100px 20px 400px;
+}
+.filtermonth{
+    margin: 0px 140px 20px 100px;
+}
+</style>
+
+    <h1 style="text-align:center;"> Redemption History</h1>
+
+    <br>
+    <br>
+    <div class="filterbank" style="font-size:17px; display:inline-block;">
+        <label for="rhbank">Bank:</label>
+        <select id="rhsort" onchange="location = this.value;" >
+            <option name="ALL" value="/allnovredemption" selected="selected">All</option>
+            <option name="UOB" value="/uobnovredemption">UOB</option>
+            <option name="OCBC" value="/ocbcnovredemption">OCBC</option>
+            <option name="DBS" value="/dbsnovredemption">DBS</option>
+        </select>
+
+    </div>
+    <div class="filtermonth" style="font-size:17px;display:inline-block;">
+           <label for="rhmonth">Month:</label>
+        <select id="rhmonth" onchange="location = this.value;">
+            <option name="All" value="/allredemption" >All</option>
+            <option name="November" value="/allnovredemption" selected="selected">November</option>
+            <option name="December" value="/alldecredemption">December</option>
+        </select>
+    </div>
+    <table class="decuobhistory" style="border:1px solid black; width:95%;text-align:center; margin:auto;">
+
+        <tr class="border_bottom"  style="height:100px;">
+             <th class="text-center" class="rhdate">Date</th>
+             <th class="text-center" class="rhcardparticulars">Card Particulars</th>
+             <th class="text-center" class="rhitem">Reward Item</th>
+             <th class="text-center" class="rhqty">Quantity</th>
+             <th class="text-center" class="rhpointsredeemed">Points Redeemed</th>
+             <th class="text-center" class="rhdeliverystatus">Delivery status</th>
+        </tr>
+        <tr class="border_bottom">
+             <td id="rhdate"><p>7/11/2017</p></td>
+             <td id="rhcardparticulars" >
+                <p>UOB Platinum Card</p>
+                <p>Card Number:9888-6121-0824-1112</p>
+                </td>
+             <td id="rhname">Nike $50 Voucher</td>
+             <td id="rhqty">2</td>
+             <td id="rhpointsredeemed">UNI$1625</td>
+             <td id="rhdeliverystatus" style="color:darkgreen; font-weight:bold;">Delivered</td>
+        </tr>
+        <tr class="border_bottom">
+             <td id="rhdate"><p>9/11/2017</p></td>
+             <td id="rhcardparticulars" >
+                <p>DBS Black Card</p>
+                <p>Card Number:7381-3191-7122-0333</p>
+                </td>
+             <td id="rhname">Charles & Keith $20 Voucher</td>
+             <td id="rhqty">1</td>
+             <td id="rhpointsredeemed">1450 DBS Points</td>
+             <td id="rhdeliverystatus" style="color:darkgreen; font-weight:bold;">Delivered</td>
+        </tr>
+        <tr class="border_bottom">
+             <td id="rhdate"><p>9/11/2017</p></td>
+             <td id="rhcardparticulars" >
+                <p>DBS Black Card</p>
+                <p>Card Number:7381-3191-7122-0333</p>
+                </td>
+             <td id="rhname">Best Denki $50 Voucher</td>
+             <td id="rhqty">1</td>
+             <td id="rhpointsredeemed">3400 DBS Points</td>
+             <td id="rhdeliverystatus" style="color:darkgreen; font-weight:bold;">Delivered</td>
+        </tr>
+        <tr class="border_bottom">
+             <td id="rhdate"><p>23/11/2017</p></td>
+             <td id="rhcardparticulars" >
+                <p>OCBC Platinum Mastercard</p>
+                <p>Card Number:2342-3981-7652-0918</p>
+                </td>
+             <td id="rhname">Metro $20 Voucher</td>
+             <td id="rhqty">2</td>
+             <td id="rhpointsredeemed">7800 OCBC$</td>
+             <td id="rhdeliverystatus" style="color:darkgreen; font-weight:bold;">Delivered</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+{% endblock %}

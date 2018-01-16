@@ -1,0 +1,27 @@
+Retail,Asia mall Gift Voucher, $20 Voucher, 1410,asiamall.png,180,90
+Retail,Best Denki Voucher, $50 Voucher, 2640,bestdenki.jpg,160,50
+Retail,Capita Voucher, $20 Voucher, 1410,capitaland.jpg,200,100
+Retail,Charles & Keith Voucher,$20 Voucher,1300,charlesandkeith.png,180,120
+Retail,Club 21 Voucher,$50 Voucher,2100,club2.jpg,80,80
+Retail,Courts Voucher,$20 Voucher,1025,court.jpg,160,65
+Retail,Gain City Voucher,$50 Voucher,2075,gaincity.png,180,70
+Retail,Isetan Voucher,$20 Voucher,1000,isetan.jpg,140,80
+Retail,Nike Voucher,$50 Voucher,1625,nike.png,120,90
+Retail,Popular Voucher,$20 Voucher,1000,popular.jpg,180,80
+Retail,Pull & Bear Voucher,$30 Voucher,1325,pullandbear.jpg,200,120
+Dining,Andersens of Denmark Voucher,$10 Voucher,700,andersenicecream.png,180,50
+Dining,Bakezin Voucher,$10 Voucher,700,bazerzin.png,160,40
+Dining,Breadtalk Voucher,$10 Voucher,700,breadtalk.png,160,60
+Dining,Din Tai Fung Voucher,$20 Voucher,1930,dintaifung.jpg,170,80
+Dining,Maki-San Voucher,$20 Voucher,1300,makisan.jpg,110,110
+Dining,O Coffee Club Voucher,$20 Voucher,1300,ocoffeeclub.jpg,200,100
+Dining,Paradise Group Voucher,$50 Voucher,2700,paradisegroup.jpg,180,80
+Dining,Polar Puffs and Cakes Voucher,$20 Voucher,1600,polar.jpg,170,70
+Dining,Swensen's Voucher,$20 Voucher,1300,swensens.png,160,50
+Dining,TungLok Group Voucher,$20 Voucher,1300,tunglok.jpg,190,100
+Leisure,BBounce Studio Voucher,$20 Voucher,1000,bbounce.png,120,90
+Leisure,Freeing SG Voucher,$20 Voucher,1000,freeingsg.png,180,100
+Leisure,Saint Games Voucher,$10 Voucher,500,saintgames.jpg,160,120
+Leisure,Shaw Theatre Tickets,2 Movie Ticket,1420,shawtheatres.png,150,100
+Leisure,Spa Infinity Voucher,$20 Voucher,1000,spaInfinity.jpg,180,95
+Leisure,Spa Symphony Voucher,$20 Voucher,1000,spasymphony.png,140,40
